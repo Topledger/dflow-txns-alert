@@ -60,7 +60,7 @@ API_HEADERS = {
 
 TIMEOUT_SEC     = 5
 EXPECT_STATUS   = 200
-MAX_LATENCY_MS  = 1500
+MAX_LATENCY_MS  = 200
 HEARTBEAT_MIN   = 0
 
 STATE_FILE      = pathlib.Path("./.api_watchdog_state")
