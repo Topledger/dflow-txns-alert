@@ -4,7 +4,7 @@
 import os, time, json, pathlib, requests
 
 # ========= CONFIG (edit these) =========
-TG_BOT_TOKEN = "bot8443866055:AAHwfJYhU9rAkNo_sIhfD46x7sFvi4WhJrE"        # <-- rotate your token in @BotFather and paste here
+TG_BOT_TOKEN = "8443866055:AAHwfJYhU9rAkNo_sIhfD46x7sFvi4WhJrE"        # <-- rotate your token in @BotFather and paste here
 TG_CHAT_ID   = "-1003269167073"
 
 API_BASE = "https://dflow.topledger.xyz/transactions"
@@ -60,7 +60,7 @@ API_HEADERS = {
 
 TIMEOUT_SEC     = 5
 EXPECT_STATUS   = 200
-MAX_LATENCY_MS  = 200
+MAX_LATENCY_MS  = 1500
 HEARTBEAT_MIN   = 0
 
 STATE_FILE      = pathlib.Path("./.api_watchdog_state")
